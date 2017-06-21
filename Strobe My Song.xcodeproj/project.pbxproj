@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92959DCD1EE0E49100AC280F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92959DCC1EE0E49100AC280F /* AppDelegate.swift */; };
+		92959DCF1EE0E49100AC280F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92959DCE1EE0E49100AC280F /* ViewController.swift */; };
+		92959DD21EE0E49100AC280F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92959DD01EE0E49100AC280F /* Main.storyboard */; };
+		92959DD51EE0E49100AC280F /* Strobe_My_Song.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92959DD31EE0E49100AC280F /* Strobe_My_Song.xcdatamodeld */; };
+		92959DD71EE0E49100AC280F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92959DD61EE0E49100AC280F /* Assets.xcassets */; };
+		92959DDA1EE0E49100AC280F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92959DD81EE0E49100AC280F /* LaunchScreen.storyboard */; };
+		92959DE51EE0E49100AC280F /* Strobe_My_SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92959DE41EE0E49100AC280F /* Strobe_My_SongTests.swift */; };
+		92959DF01EE0E49100AC280F /* Strobe_My_SongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92959DEF1EE0E49100AC280F /* Strobe_My_SongUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92959DE11EE0E49100AC280F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92959DC11EE0E49100AC280F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92959DC81EE0E49100AC280F;
+			remoteInfo = "Strobe My Song";
+		};
+		92959DEC1EE0E49100AC280F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92959DC11EE0E49100AC280F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92959DC81EE0E49100AC280F;
+			remoteInfo = "Strobe My Song";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92959DC91EE0E49100AC280F /* Strobe My Song.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strobe My Song.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92959DCC1EE0E49100AC280F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92959DCE1EE0E49100AC280F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92959DD11EE0E49100AC280F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92959DD41EE0E49100AC280F /* Strobe_My_Song.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Strobe_My_Song.xcdatamodel; sourceTree = "<group>"; };
+		92959DD61EE0E49100AC280F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92959DD91EE0E49100AC280F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92959DDB1EE0E49100AC280F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92959DE01EE0E49100AC280F /* Strobe My SongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Strobe My SongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92959DE41EE0E49100AC280F /* Strobe_My_SongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strobe_My_SongTests.swift; sourceTree = "<group>"; };
+		92959DE61EE0E49100AC280F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92959DEB1EE0E49100AC280F /* Strobe My SongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Strobe My SongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92959DEF1EE0E49100AC280F /* Strobe_My_SongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strobe_My_SongUITests.swift; sourceTree = "<group>"; };
+		92959DF11EE0E49100AC280F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92959DC61EE0E49100AC280F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92959DDD1EE0E49100AC280F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92959DE81EE0E49100AC280F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92959DC01EE0E49000AC280F = {
+			isa = PBXGroup;
+			children = (
+				92959DCB1EE0E49100AC280F /* Strobe My Song */,
+				92959DE31EE0E49100AC280F /* Strobe My SongTests */,
+				92959DEE1EE0E49100AC280F /* Strobe My SongUITests */,
+				92959DCA1EE0E49100AC280F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92959DCA1EE0E49100AC280F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92959DC91EE0E49100AC280F /* Strobe My Song.app */,
+				92959DE01EE0E49100AC280F /* Strobe My SongTests.xctest */,
+				92959DEB1EE0E49100AC280F /* Strobe My SongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92959DCB1EE0E49100AC280F /* Strobe My Song */ = {
+			isa = PBXGroup;
+			children = (
+				92959DCC1EE0E49100AC280F /* AppDelegate.swift */,
+				92959DCE1EE0E49100AC280F /* ViewController.swift */,
+				92959DD01EE0E49100AC280F /* Main.storyboard */,
+				92959DD61EE0E49100AC280F /* Assets.xcassets */,
+				92959DD81EE0E49100AC280F /* LaunchScreen.storyboard */,
+				92959DDB1EE0E49100AC280F /* Info.plist */,
+				92959DD31EE0E49100AC280F /* Strobe_My_Song.xcdatamodeld */,
+			);
+			path = "Strobe My Song";
+			sourceTree = "<group>";
+		};
+		92959DE31EE0E49100AC280F /* Strobe My SongTests */ = {
+			isa = PBXGroup;
+			children = (
+				92959DE41EE0E49100AC280F /* Strobe_My_SongTests.swift */,
+				92959DE61EE0E49100AC280F /* Info.plist */,
+			);
+			path = "Strobe My SongTests";
+			sourceTree = "<group>";
+		};
+		92959DEE1EE0E49100AC280F /* Strobe My SongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92959DEF1EE0E49100AC280F /* Strobe_My_SongUITests.swift */,
+				92959DF11EE0E49100AC280F /* Info.plist */,
+			);
+			path = "Strobe My SongUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92959DC81EE0E49100AC280F /* Strobe My Song */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92959DF41EE0E49100AC280F /* Build configuration list for PBXNativeTarget "Strobe My Song" */;
+			buildPhases = (
+				92959DC51EE0E49100AC280F /* Sources */,
+				92959DC61EE0E49100AC280F /* Frameworks */,
+				92959DC71EE0E49100AC280F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Strobe My Song";
+			productName = "Strobe My Song";
+			productReference = 92959DC91EE0E49100AC280F /* Strobe My Song.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92959DDF1EE0E49100AC280F /* Strobe My SongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92959DF71EE0E49100AC280F /* Build configuration list for PBXNativeTarget "Strobe My SongTests" */;
+			buildPhases = (
+				92959DDC1EE0E49100AC280F /* Sources */,
+				92959DDD1EE0E49100AC280F /* Frameworks */,
+				92959DDE1EE0E49100AC280F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92959DE21EE0E49100AC280F /* PBXTargetDependency */,
+			);
+			name = "Strobe My SongTests";
+			productName = "Strobe My SongTests";
+			productReference = 92959DE01EE0E49100AC280F /* Strobe My SongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92959DEA1EE0E49100AC280F /* Strobe My SongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92959DFA1EE0E49100AC280F /* Build configuration list for PBXNativeTarget "Strobe My SongUITests" */;
+			buildPhases = (
+				92959DE71EE0E49100AC280F /* Sources */,
+				92959DE81EE0E49100AC280F /* Frameworks */,
+				92959DE91EE0E49100AC280F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92959DED1EE0E49100AC280F /* PBXTargetDependency */,
+			);
+			name = "Strobe My SongUITests";
+			productName = "Strobe My SongUITests";
+			productReference = 92959DEB1EE0E49100AC280F /* Strobe My SongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92959DC11EE0E49100AC280F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Colin Warn";
+				TargetAttributes = {
+					92959DC81EE0E49100AC280F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 93Q5482J7M;
+						ProvisioningStyle = Automatic;
+					};
+					92959DDF1EE0E49100AC280F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 93Q5482J7M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92959DC81EE0E49100AC280F;
+					};
+					92959DEA1EE0E49100AC280F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 93Q5482J7M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92959DC81EE0E49100AC280F;
+					};
+				};
+			};
+			buildConfigurationList = 92959DC41EE0E49100AC280F /* Build configuration list for PBXProject "Strobe My Song" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92959DC01EE0E49000AC280F;
+			productRefGroup = 92959DCA1EE0E49100AC280F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92959DC81EE0E49100AC280F /* Strobe My Song */,
+				92959DDF1EE0E49100AC280F /* Strobe My SongTests */,
+				92959DEA1EE0E49100AC280F /* Strobe My SongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92959DC71EE0E49100AC280F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92959DDA1EE0E49100AC280F /* LaunchScreen.storyboard in Resources */,
+				92959DD71EE0E49100AC280F /* Assets.xcassets in Resources */,
+				92959DD21EE0E49100AC280F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92959DDE1EE0E49100AC280F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92959DE91EE0E49100AC280F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92959DC51EE0E49100AC280F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92959DD51EE0E49100AC280F /* Strobe_My_Song.xcdatamodeld in Sources */,
+				92959DCF1EE0E49100AC280F /* ViewController.swift in Sources */,
+				92959DCD1EE0E49100AC280F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92959DDC1EE0E49100AC280F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92959DE51EE0E49100AC280F /* Strobe_My_SongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92959DE71EE0E49100AC280F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92959DF01EE0E49100AC280F /* Strobe_My_SongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92959DE21EE0E49100AC280F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92959DC81EE0E49100AC280F /* Strobe My Song */;
+			targetProxy = 92959DE11EE0E49100AC280F /* PBXContainerItemProxy */;
+		};
+		92959DED1EE0E49100AC280F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92959DC81EE0E49100AC280F /* Strobe My Song */;
+			targetProxy = 92959DEC1EE0E49100AC280F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92959DD01EE0E49100AC280F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92959DD11EE0E49100AC280F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92959DD81EE0E49100AC280F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92959DD91EE0E49100AC280F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92959DF21EE0E49100AC280F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92959DF31EE0E49100AC280F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92959DF51EE0E49100AC280F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93Q5482J7M;
+				INFOPLIST_FILE = "Strobe My Song/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colinwarn.Strobe-My-Song";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92959DF61EE0E49100AC280F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93Q5482J7M;
+				INFOPLIST_FILE = "Strobe My Song/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colinwarn.Strobe-My-Song";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		92959DF81EE0E49100AC280F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93Q5482J7M;
+				INFOPLIST_FILE = "Strobe My SongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colinwarn.Strobe-My-SongTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strobe My Song.app/Strobe My Song";
+			};
+			name = Debug;
+		};
+		92959DF91EE0E49100AC280F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93Q5482J7M;
+				INFOPLIST_FILE = "Strobe My SongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colinwarn.Strobe-My-SongTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strobe My Song.app/Strobe My Song";
+			};
+			name = Release;
+		};
+		92959DFB1EE0E49100AC280F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 93Q5482J7M;
+				INFOPLIST_FILE = "Strobe My SongUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colinwarn.Strobe-My-SongUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Strobe My Song";
+			};
+			name = Debug;
+		};
+		92959DFC1EE0E49100AC280F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 93Q5482J7M;
+				INFOPLIST_FILE = "Strobe My SongUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colinwarn.Strobe-My-SongUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Strobe My Song";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92959DC41EE0E49100AC280F /* Build configuration list for PBXProject "Strobe My Song" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92959DF21EE0E49100AC280F /* Debug */,
+				92959DF31EE0E49100AC280F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92959DF41EE0E49100AC280F /* Build configuration list for PBXNativeTarget "Strobe My Song" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92959DF51EE0E49100AC280F /* Debug */,
+				92959DF61EE0E49100AC280F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92959DF71EE0E49100AC280F /* Build configuration list for PBXNativeTarget "Strobe My SongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92959DF81EE0E49100AC280F /* Debug */,
+				92959DF91EE0E49100AC280F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92959DFA1EE0E49100AC280F /* Build configuration list for PBXNativeTarget "Strobe My SongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92959DFB1EE0E49100AC280F /* Debug */,
+				92959DFC1EE0E49100AC280F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92959DD31EE0E49100AC280F /* Strobe_My_Song.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92959DD41EE0E49100AC280F /* Strobe_My_Song.xcdatamodel */,
+			);
+			currentVersion = 92959DD41EE0E49100AC280F /* Strobe_My_Song.xcdatamodel */;
+			path = Strobe_My_Song.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92959DC11EE0E49100AC280F /* Project object */;
+}
